@@ -1,0 +1,31 @@
+{
+  "name": "movies-graphql-server",
+  "version": "0.0.1",
+  "description": "A simple GraphQL server for movies and movie recommendations",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "William Lyon",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-inline-import": "^2.0.4",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "graphql": "^0.9.5",
+    "graphql-server-express": "^0.7.2",
+    "graphql-tools": "^0.11.0",
+    "neo4j-driver": "^1.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
