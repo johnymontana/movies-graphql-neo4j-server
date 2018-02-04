@@ -23,7 +23,12 @@ schema {
 }
 `;
 
-export default makeExecutableSchema({
-  typeDefs: schema,
-  resolvers,
-});
+let exeSchema =
+    makeExecutableSchema({
+        typeDefs: schema,
+        resolvers,
+    });
+
+console.log(exeSchema);
+export default exeSchema;
+

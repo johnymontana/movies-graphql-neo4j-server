@@ -27,5 +27,8 @@
     "graphql-tools": "^0.11.0",
     "neo4j-driver": "^1.2.0",
     "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0"
   }
 }
